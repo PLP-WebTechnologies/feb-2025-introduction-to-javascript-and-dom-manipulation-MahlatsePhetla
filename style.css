@@ -1,0 +1,79 @@
+
+li{
+  display: inline;
+  font-size: 30px;
+  padding: 10px 20px;
+  text-align: center;
+  float: left;
+  
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background-color: green;
+    width:100%;
+    height: auto;
+    padding-bottom: 60px;
+}
+
+
+.background-container {
+    background-image: url('javascript.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 200px;
+    border-radius: 10px;
+    float: left;
+}
+
+#dynamicText {
+    color: white;
+    font-size: 20px;
+}
+.hidden {
+    display: none;
+}
+
+#changeText{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    size: 20px;
+    width: auto;
+    height: auto;
+
+}
+
+#toggleElementBtn{
+
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+}
